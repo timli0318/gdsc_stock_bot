@@ -1,3 +1,4 @@
+'''
 import requests
 from bs4 import BeautifulSoup
 import time
@@ -23,3 +24,4 @@ chat_id='6431659328'
 url = f"https://api.telegram.org/bot{token}/sendMessage?chat_id={chat_id}&text={message}"
 requests.get(url)
 time.sleep(3)
+'''
