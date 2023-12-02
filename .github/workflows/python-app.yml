@@ -1,8 +1,9 @@
+
 name: get stock price
  
 on:
   schedule:
-    - cron: "*/5 * * * *"
+#    - cron: "*/5 * * * *"
  
 jobs:
   build:
@@ -25,3 +26,4 @@ jobs:
  
       - name: Run Python script
         run: python test1.py
+ '''
